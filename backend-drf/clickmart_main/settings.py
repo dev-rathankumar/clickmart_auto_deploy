@@ -174,7 +174,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
-    'http://172.105.33.13:5173'
+    'http://172.105.33.13:5173',
     'http://djangoclickmart.store',
     'https://djangoclickmart.store',
 ]
