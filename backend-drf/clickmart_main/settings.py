@@ -178,3 +178,5 @@ CORS_ALLOWED_ORIGINS = [
     'http://djangoclickmart.store',
     'https://djangoclickmart.store',
 ]
+
+CSRF_TRUSTED_ORIGINS = config('CSRF_TRUSTED_ORIGINS')
